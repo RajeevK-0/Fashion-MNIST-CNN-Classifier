@@ -1,0 +1,14 @@
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore large model files (optional, but good practice if files are >100MB)
+*.keras
+*.h5
+
+# Ignore system files
+.DS_Store
